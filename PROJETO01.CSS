@@ -1,0 +1,61 @@
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+
+}
+
+.interface {
+height: 100vh;
+scroll-snap-type:  y mandatory;
+overflow-y: scroll;
+}
+
+.page1{
+background-image: url(img/f2557dc76b982aeddacebf9f36044e2e.gif);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 50px;
+
+}
+
+
+.page2{
+    background-image: url(img/C8B4B102-E4BB-44BE-8E41-F34F69B8E4E5-scaled.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+}
+
+.page3{
+    background-image: url(img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+}
+
+
+.page4{
+    background-image: url(img/Moda-anos-80.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 50px;
+}
+.page5{
+background-image: url(img/11114539490099.webp);
+background-repeat: no-repeat;
+background-size: cover;
+font-size: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
